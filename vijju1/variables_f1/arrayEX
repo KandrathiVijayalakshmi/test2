@@ -1,0 +1,14 @@
+const company={first:"tcs",second:"infosys",third:"capgemini"};
+console.log(company);
+const company1={
+    first:"tcs",
+    second:"infosys",
+    third:"capgemini",
+    preference: function()
+    {
+        return this.first + " " + this.second;
+    }
+
+};
+console.log(company1.preference());
+console.log(company1.first);

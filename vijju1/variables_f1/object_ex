@@ -1,0 +1,16 @@
+const person={firstname:"vijju",lastname:"kandrathi",age:"20",favColour:"blue"};
+const person1=new Object({
+
+})
+const person2={
+    firstname:"vijju",
+    lastname:"kandrathi",
+    age:"20",
+    favColour:"blue",
+   
+    fullname: function(){
+        return this.firstname + " " + this.lastname;
+    }
+};
+console.log(person2.fullname());
+console.log(person.favColour);

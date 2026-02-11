@@ -1,0 +1,8 @@
+const add =(a,b) => {     //use { } when use more than one logic
+    return a+b;
+};
+console.log(add(9,4)); 
+
+
+/*const add1=(a,b)=>a+b;
+console.log(add1(9,4));*/  // these 2 lines are also enough for the above prgm
